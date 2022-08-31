@@ -1,0 +1,95 @@
+/***************************
+       MAIN STYLES
+****************************/
+.ev {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/**************************
+        ROOF STYLES
+***************************/
+.cati-baca {
+  width: 0;
+  height: 0;
+  border-left: 350px solid transparent;
+  border-right: 350px solid transparent;
+  border-bottom: 200px solid #b3472d;
+  display: flex;
+  justify-content: space-around;
+}
+.cati {
+  width: 400px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  top: 15px;
+  left: 120px;
+}
+.baca1 {
+  width: 60px;
+  height: 15px;
+  background-color: #aaaaaa;
+}
+.baca2 {
+  width: 40px;
+  height: 60px;
+  background-color: #808080;
+}
+/**************************
+        WINDOW STYLES
+***************************/
+.pencere-kapi {
+  width: 700px;
+  height: 300px;
+  background-color: #e37d55;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.pencere {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.cam {
+  width: 96px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.kare {
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border: 1px solid;
+}
+/**************************
+        DOOR STYLES
+***************************/
+.kapi-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.kapi {
+  width: 90px;
+  height: 140px;
+  background-color: #de593a;
+  border: 5px solid #a3503d;
+  border-bottom: 7px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.kapi-kolu {
+  width: 12px;
+  height: 12px;
+  background-color: black;
+  border-radius: 50%;
+}
